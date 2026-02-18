@@ -42,9 +42,11 @@ Backend: http://localhost:8000
 
 ## Environment Variables
 
-Create `.env` file:
+Create a `.env` file in the project root and add your API key:
 
-OPENROUTER_API_KEY=your_key_here
+OPENROUTER_API_KEY=your_api_key_here
+
+This key is used for the AI classification feature.
 
 ## AI Design
 
